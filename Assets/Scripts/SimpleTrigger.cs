@@ -26,10 +26,22 @@ public class SimpleTrigger : MonoBehaviour
             //Invoke(): This method calls all methods that have been registered to this UnityEvent.
             //So, when a collider with the specified tag exits the trigger, all attached functions
             //will be executed.
-            onTriggerExit.Invoke();
+            onTriggerEnter.Invoke();
+            Debug.Log("Hej");
             if (destroyOnTrigger)
                 Destroy(gameObject);
         }
         
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag(tagFilter))
+        {
+            onTriggerExit.Invoke();
+
+            if (destroyOnTrigger) 
+                Destroy(gameObject);
+        }
     }
 }
