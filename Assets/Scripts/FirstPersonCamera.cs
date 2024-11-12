@@ -11,7 +11,7 @@ public class FirstPerson : MonoBehaviour
     public new Transform camera;
     public float eyeHeight = 1f;
 
-    //private variables
+    //private variables - privata variablar går inte att hämta i andra scripts
 
     float xRotation;
     float yRotation;
