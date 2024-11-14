@@ -1,0 +1,8 @@
+Model Information:
+* title:	High-Tech Building
+* source:	https://sketchfab.com/3d-models/high-tech-building-7e2694ce50004b7981f08603f47612ea
+* author:	Route_Kanal (https://sketchfab.com/routekahal)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
